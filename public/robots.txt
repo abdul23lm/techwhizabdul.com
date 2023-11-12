@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://techwhizabdul.com
+
+# Sitemaps
+Sitemap: https://techwhizabdul.com/sitemap.xml
