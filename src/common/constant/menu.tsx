@@ -8,7 +8,7 @@ import {
 } from 'react-icons/bs';
 import {
   FiBookOpen as LearnIcon,
-  // FiCoffee as ProjectIcon,
+  FiCoffee as ProjectIcon,
   FiCpu as DashboardIcon,
   FiPocket as HomeIcon,
   FiRss as BlogIcon,
@@ -40,15 +40,15 @@ export const MENU_ITEMS: MenuItemProps[] = [
     eventName: 'Pages: Dashboard',
     type: 'Pages',
   },
-  // {
-  //   title: 'Projects',
-  //   href: '/projects',
-  //   icon: <ProjectIcon size={iconSize} />,
-  //   isShow: true,
-  //   isExternal: false,
-  //   eventName: 'Pages: Projects',
-  //   type: 'Pages',
-  // },
+  {
+    title: 'Projects',
+    href: '/projects',
+    icon: <ProjectIcon size={iconSize} />,
+    isShow: true,
+    isExternal: false,
+    eventName: 'Pages: Projects',
+    type: 'Pages',
+  },
   {
     title: 'Blog',
     href: '/blog',
