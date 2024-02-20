@@ -31,6 +31,9 @@ import {
   SiVuedotjs,
   SiWebpack,
   SiWordpress,
+  SiDart,
+  SiFlutter,
+  SiWeb3Dotjs,
 } from 'react-icons/si';
 
 export type stacksProps = {
@@ -79,4 +82,7 @@ export const STACKS: stacksProps = {
   Remix: <SiRemix size={iconSize} />,
   Express: <SiExpress size={iconSize} />,
   Jquery: <SiJquery size={iconSize} />,
+  Dart: <SiDart size={iconSize} />,
+  Flutter: <SiFlutter size={iconSize} className='text-blue-500' />,
+  'Web3.js': <SiWeb3Dotjs size={iconSize} className='text-purple-600' />,
 };

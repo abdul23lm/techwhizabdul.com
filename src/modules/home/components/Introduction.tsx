@@ -8,22 +8,21 @@ const Introduction = () => {
         </div>
         <div className='space-y-4'>
           <ul className='flex flex-col lg:flex-row gap-1 lg:gap-10 ml-5 list-disc text-neutral-700 dark:text-neutral-400'>
-            <li>Working Remotely</li>
             <li>
               Based in Jakarta, Indonesia <span className='ml-1'>🇮🇩</span>
             </li>
+            <li>Working Remotely</li>
           </ul>
         </div>
       </div>
 
       <p className='leading-[1.8] md:leading-loose mt-6 text-neutral-800 dark:text-neutral-300'>
-        An experienced Software Engineer with 5+ years of expertise,
-        specializing in frontend development. I excel in crafting pixel-perfect
-        web applications using VueJS, and ReactJS. On the mobile side, I've got
-        you covered with expertise in Flutter. Behind the scenes, I wield the
-        power of Laravel and ExpressJS for seamless backend development. Let's
-        collaborate to deliver efficient, scalable, and visually appealing
-        solutions that exceed expectations!
+        Experienced software engineer with 5+ years specializing in frontend
+        development. Skilled in crafting visually appealing web applications and
+        mobile solutions. Proficient in backend development, API creation,
+        deployment management, and infrastructure. Open to collaboration for
+        building better projects. Let's craft efficient, scalable solutions
+        together!
       </p>
     </section>
   );
