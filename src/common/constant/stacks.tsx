@@ -1,7 +1,5 @@
 import { BsFillBootstrapFill, BsRobot } from 'react-icons/bs';
 import {
-  SiAngular,
-  SiApollographql,
   SiCss3,
   SiExpress,
   SiFirebase,
@@ -34,6 +32,16 @@ import {
   SiDart,
   SiFlutter,
   SiWeb3Dotjs,
+  SiMysql,
+  SiPostgresql,
+  SiRedis,
+  SiMongodb,
+  SiAmazonaws,
+  SiAlibabacloud,
+  SiLeaflet,
+  SiChartdotjs,
+  SiGooglemaps,
+  SiChakraui,
 } from 'react-icons/si';
 
 export type stacksProps = {
@@ -53,7 +61,6 @@ export const STACKS: stacksProps = {
     <BsFillBootstrapFill size={iconSize} className='text-purple-500' />
   ),
   GraphQL: <SiGraphql size={iconSize} className='text-pink-600' />,
-  Apollo: <SiApollographql size={iconSize} />,
   WordPress: <SiWordpress size={iconSize} />,
   Laravel: <SiLaravel size={iconSize} className='text-red-500' />,
   'Material UI': <SiMui size={iconSize} className='text-sky-400' />,
@@ -63,7 +70,6 @@ export const STACKS: stacksProps = {
   'Artificial Intelligence': (
     <BsRobot size={iconSize} className='text-rose-500' />
   ),
-  Angular: <SiAngular size={iconSize} className='text-red-500' />,
   'Vue.js': <SiVuedotjs size={iconSize} className='text-green-500' />,
   'Nuxt.js': <SiNuxtdotjs size={iconSize} className='text-green-400' />,
   'Node.js': <SiNodedotjs size={iconSize} className='text-green-600' />,
@@ -82,7 +88,17 @@ export const STACKS: stacksProps = {
   Remix: <SiRemix size={iconSize} />,
   Express: <SiExpress size={iconSize} />,
   Jquery: <SiJquery size={iconSize} />,
-  Dart: <SiDart size={iconSize} />,
+  Dart: <SiDart size={iconSize} className='text-blue-500' />,
   Flutter: <SiFlutter size={iconSize} className='text-blue-500' />,
   'Web3.js': <SiWeb3Dotjs size={iconSize} className='text-purple-600' />,
+  MySQL: <SiMysql size={iconSize} className='text-amber-600' />,
+  PostgreSQL: <SiPostgresql size={iconSize} className='text-blue-500' />,
+  Redis: <SiRedis size={iconSize} className='text-red-500' />,
+  MongoDB: <SiMongodb size={iconSize} className='text-green-800' />,
+  AWS: <SiAmazonaws size={iconSize} className='text-amber-500' />,
+  Alibaba: <SiAlibabacloud size={iconSize} className='text-amber-500' />,
+  Leaflet: <SiLeaflet size={iconSize} className='text-green-600' />,
+  'Chart.js': <SiChartdotjs size={iconSize} className='text-pink-500' />,
+  'Google Maps': <SiGooglemaps size={iconSize} />,
+  'Chakra UI': <SiChakraui size={iconSize} className='text-cyan-300' />,
 };
